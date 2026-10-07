@@ -26,7 +26,7 @@ type Language =
   | "Punjabi"
   | "Tamil";
 
-const SERVER_URL = "http://10.0.0.218:3000";
+const SERVER_URL = "https://speech-helper.onrender.com";
 
 export default function SpeechHelper() {
   const [heardText, setHeardText] =
